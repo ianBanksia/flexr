@@ -1,4 +1,4 @@
-# flex
+# flexr
 fork of Ampleforth reimplementation - Sample code for Clarity Developers
 
 This project was created in 2021 (by @psq) as a fork of AmpleForth to explore how Clarity could work with more serious DeFi conecpts.
@@ -6,10 +6,6 @@ This iteraction is aimed to explore how the Nakamoto Release of Stacks can impro
 
 
 ---- original ReadMe:
-# flexr
-A reimplementation of the [Ampleforth](https://www.ampleforth.org/) Token, Oracle and [Geyser](https://www.ampleforth.org/dapps/).
-
-This also demonstrates how multiple Clarity contracts can interact with each other to provide value to users.  The sum is greater than the parts!
 
 ## TL;DR
 [flexr](#the-flexr-token) is an [SRC20 token](#the-src20-token-trait) with an elastic supply, guaranteed by design to be [uncorrelated](#why-non-correlation-is-important) to other tokens.  The supply of flexr token gets adjusted ([rebased](#flexr-rebase-math)) on a daily basis based on the price provided by an [Oracle](#the-flexr-oracle).  The flexr token can be exchanged with STX on [swapr](#changes-to-swapr).  Liquidity providers on swapr are further incentivized by staking the proof they provide liquity on a [Geyser](#changes-to-swapr) that provides higher and higher rewards the longer liquidity providers keep staking.
